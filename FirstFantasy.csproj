@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1920x1200-px-fantasy-art-Warhammer-Warhammer-Fantasy-Role-Play-739540-wallhere.com.jpg" />
+    <None Remove="29385.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="1920x1200-px-fantasy-art-Warhammer-Warhammer-Fantasy-Role-Play-739540-wallhere.com.jpg" />
+    <Resource Include="29385.jpg" />
+  </ItemGroup>
+
+</Project>
